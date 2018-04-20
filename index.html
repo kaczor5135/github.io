@@ -1,119 +1,151 @@
 <!DOCTYPE html>
-<html lang="pl">
+ <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
-    <title>My Portfolio</title>
- <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700,900|Cormorant+Garamond:400,700,700i" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rocket Design - Mobile Web Design Services</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/icons/favicon.png"/>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 </head>
-
 <body>
-    <header>
-        
-        <a href="index.html" class="header-brand">Krutul </a>
-        <img src="images/logo.png">
-        <nav>
-            <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <a href="index.html" class="header-cases">packs</a>
-            
-          
-        </nav>
-    </header>
-    <main>
-        <section class="index-banner">
-           <div class="vertical-center">
-            <h2>I AM A MUSIC<br> PRODUCENT</h2>
-            <h1>No matter what type of music you make, you want it to be good music. You want other people to enjoy listening to your tracks.</h1>
+    <div id="wrapper">
+    <div id="banner-wrapper">
+        <header>
+            <div id="header-inner">
+                <a href="index.html" id="logo"></a>
+                <nav>
+                    <a href="#" id="menu-icon"></a>
+                    <ul>
+                        <li><a href="index.html" class="current">Home</a></li>
+                        <li><a href="index.html">Skills</a></li>
+                        <li><a href="index.html">Portfolio</a></li>
+                        <li><a href="index.html">Our Team</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        </section>
-        <div class="wrapper">
-        <section class="index-links">
-            <a href="cases.html">
-                <div class="index-boxlink-square">  
-                    <h3>Packs</h3>
-                    <div class="fonts">
-                    <i class="fas fa-th" class="icon-x"></i></i>                 
-                </div>
-                </div>
-            </a>
-            <a href="#">
-                <div class="index-boxlink-ractangle">
-                    <h3>Portfolio</h3>
-                    <div class="fonts">
-                    <i class="far fa-address-card"></i>
-                </div>
-                </div>    
-            </a>
-            <a href="#">
-                <div class="index-boxlink-square">
-                    <h3>Download</h3>
-                    <div class="fonts">
-                    <i class="fas fa-address-card"></i>
-                </div>
-                </div>
-            </a>
-            <a href="#">
-               <div class="index-boxlink-ractangle" id="youtube">
-                    <h3>YouTube Channel</h3>
-                    <div class="fonts">
-                    <i class="fab fa-youtube"></i></i>
-                </div>
-                </div>
-            </a>
-            <a href="#">
-               <div class="index-boxlink-square">
-                    <h3>About me</h3>
-                    <div class="fonts">
-                    <i class="far fa-user"></i></i>
-                </div>
-                </div>
-            </a>
-            <a href="#">
-               <div class="index-boxlink-square">
-                    <h3>Contact</h3>
-                    <div class="fonts">
-                    <i class="far fa-envelope"></i>
-                    </div>
-                </div>
-            </a>
-            
-        </section>
-        </div>
-    </main>
-     <div class="wrapper">
-    <footer>
-       <ul class="footer-links-main">
-           <li><a href="#">Home</a></li>
-           <li><a href="cases.html">Cases</a></li>
-           <li><a href="#">Portfolio</a></li>
-           <li><a href="#">About me</a></li>
-           <li><a href="#">Contact</a></li>
-       </ul>
-       <ul class="footer-links-cases">
-           <li><p>LATEST CASES</p></li>
-           <li><a href="#">MALING SHAOLIN - WEB DEVELOPMENT</a></li>
-           <li><a href="#">MY PROJECT</a></li>
-           <li><a href="#">VIDEO CHANEL</a></li>
-           <li><a href="#">VIDEO PRODUCTION</a></li>
-       </ul>
-       <div class="footer-sm">
-           <a href="#">
-               <img src="images/youtube.png" alt="youtube icon">
-           </a>
-           <a href="#">
-               <img src="images/twitter.png" alt="youtube icon">
-           </a>
-           <a href="#">
-               <img src="images/facebook.png" alt="youtube icon">
-           </a>
-       </div>
-    </footer> 
+        </header>
+
+
+<!--- Slider Start -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slider-wrap">
+		    <section class="slider">
+		        <ul class="slider1">
+		            <li><img src="img/pics/desktop-1.png"></li>
+		            <li><img src="img/pics/desktop-2.png"></li>
+		            <li><img src="img/pics/desktop-3.png"></li>
+		        </ul>
+		    </section>
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- Slider End -->
     </div>
+    <!--- Start Three Colum Icons -->
+    <section class="one-third">
+       <div class="icon-wrap">
+           <td><i class="fa fa-desktop"></i></td>
+       </div>
+       <h3>Web Desing</h3>  
+    </section>
+    <section class="one-third">
+       <div class="icon-wrap">
+           <td><i class="fa fa-pencil-square-o"></i></td>
+       </div>
+        <h3>Digital Graphic</h3>
+    </section>
+     <section class="one-third">
+       <div class="icon-wrap">
+           <td><i class="fa fa-file-code-o"></i></td>
+       </div>
+        <h3>Development</h3>
+    </section>
+        <!--- End Three Colum Icons -->
+        <div class="clearfix-padding"></div>
+    <section class="left-col">
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit a earum odio ad veritatis blanditiis temporibus fugit nostrum consectetur! Minima facilis natus, consectetur aspernatur!</p> 
+    </section>
+    <section class="sidebar">
+        <img src="img/pics/computer-white.png">
+    </section>
+    <!--- End Left Column and  Sidebar Image -->
+    <div class="clearfix-padding"></div>
+    <section class="one-third-padding">
+        <h3>Our Skills One</h3>
+        <img src="img/pics/computer-gal.png">
+        <p>Lorem ipsum dolor sit amet.&amp;</p>
+    </section>
+    <section class="one-third-padding">
+        <h3>Our Skills two</h3>
+        <img src="img/pics/900-644.png">
+        <p>Lorem ipsum dolor sit amet.&amp;</p>
+    </section>
+    <section class="one-third-padding">
+        <h3>Our Skills three</h3>
+        <img src="img/pics/computer-guy.png">
+        <p>Lorem ipsum dolor sit amet.&amp;</p>
+    </section>
+<!--- End One Third Padding Section --> 
+
+    </div> <!--- End Wrapper -->
+    <div class="clearfix-padding"></div>
+    <!--- Start Footer -->
+    <footer>
+        <div id="banner=wrapper">
+            <div class="icon-text">
+                <div class="icon-text-icon">
+                     <ul class="footer-nav">
+                         <li><a href="#">Home</a></li>
+                         <li><a href="#">Skills</a></li>
+                         <li><a href="#">Portfolio</a></li>
+                         <li><a href="#">Our Team</a></li>
+                         <li><a href="#">Contact</a></li>
+                     </ul>
+                </div>
+                <div class="icon-text-text">
+                   <ul class="social">
+                       <li><a href="mailto:email@website.com"><i class="fa fa-envelope-o"></i></a></li>
+                       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                       <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                       <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                   </ul> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="second">
+        <p>&copy;Rocket Desing 2018</p>
+    </footer>
+<!--- End Footers -->
 </body>
 </html>

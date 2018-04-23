@@ -353,7 +353,7 @@ footer p {
     }
 .article{
     background-color: #6595af;
-    width: 50%;
+    width: 70%;
     overflow: hidden;
     margin: 0 auto;
     border: 1px solid #fff;
@@ -362,7 +362,7 @@ footer p {
 
 .article img{
 
-    width: 450px;
+    width: 50%;
     float: right;
 }
 .article h1 {

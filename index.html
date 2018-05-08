@@ -1,94 +1,153 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projekt</title>
-    <link href="style.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">  
+    <link rel="stylesheet" href="style.css">
+    <title>Random</title>
 </head>
 
 <body>
-   <header>
-      <div class="header-inner">
-         <a href="index.html" id="logo"></a>
-         <nav class="main-nav">
-            <a href="#" id="menu-icon"></a>
-             <ul>
-                 <li><a class="activ" href="index.html">Home</a></li>
-                 <li><a href="index.html">About us</a></li>
-                 <li><a href="index.html">Skills</a></li>
-                 <li><a href="index.html">Portfolio</a></li>
-                 <li><a href="index.html">Contact</a></li>
-             </ul>
-         </nav>
-      </div>
+   <header> 
+       <img src="img/logo.png" alt="Creative logo" class="logo">
+       <nav>
+           <ul>
+               <li><a href="">Home</a></li>
+               <li><a href="">About us</a></li>
+               <li><a href="">Contact</a></li>
+           </ul>
+       </nav>
    </header>
-<main>
-    <section class="banner">
-       <div class="banner-text">
-            <h2>I AM A FREELANCE WEB<br>DEVELOPER</h2>
-            <h1>I don’t just build websites, I build your business.</h1>
-        </div>
-    </section>
-    <section class="icon-wrap">
-        <div class="icon-first">
-            <i class="fas fa-pencil-alt"></i>
-            <h3>Desing</h3>
-            <p>Website should look fresh, powerful and well organized</p>
-        </div>
-        <div class="icon-first">
-            <i class="fas fa-mobile-alt"></i>
-            <h3>Responsive</h3>
-            <p>Your web page look good on all devices</p>
-        </div>
-         <div class="icon-first">
-            <i class="fas fa-code"></i>
-            <h3>Seo</h3>
-            <p>Search engine optimization, ranking factors & more.</p>
-        </div>
-        <div class="icon-first">
-            <i class="far fa-money-bill-alt"></i>
-            <h3>Very Cheap</h3>
-            <p>Only 5$ and you get web with content</p>
-        </div>
-    </section>
-    <div class="wrapper">
-       <div class="article-wrapper">
-        <article class="article">
-            <img src="images/pics/computer-gal.png" alt="">
-            <h1>Why me ?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rerum laboriosam veritatis, illum cumque excepturi commodi dolor iusto neque maxime autem doloremque sed, incidunt eos enim sint, laudantium soluta quaerat.</p>
-        </article>
-         <article class="article" id="srodek">
-            <img src="images/pics/team.jpg" alt="">
-            <h1>Our Team</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rerum laboriosam veritatis, illum cumque excepturi commodi dolor iusto neque maxime autem doloremque sed, incidunt eos enim sint, laudantium soluta quaerat.</p>
-        </article>
-         <article class="article">
-            <img src="images/pics/900-644.png" alt="">
-            <h1>About us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea rerum laboriosam veritatis, illum cumque excepturi commodi dolor iusto neque maxime autem doloremque sed, incidunt eos enim sint, laudantium soluta quaerat.</p>
-        </article> 
-        </div>     
-    </div>
-    <section class="contact">
-       <h2>Contact</h2>
-        <div class="contact-left">
-            <a href=""><i class="fab fa-facebook-f"></i></a>
-            <a href=""><i class="fab fa-twitter"></i></a>
-            <a href=""><i class="far fa-envelope"></i></a>
-        </div>
-        <div class="contact-right">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3023.9704865667854!2d-74.0118683!3d40.7186662!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a1e0db46837%3A0x97328f4c4e77998f!2s199+Chambers+St%2C+New+York%2C+NY+10007!5e0!3m2!1sen!2sus!4v1414997345912" width="100%" height="200" frameborder="0" style="border:0"></iframe>
-        </div>
-    </section>
-</main>
-<footer>
-    <p>&copy;tutaj jest moja stopka 2018</p>
-</footer>
+   <section class="home-hero">
+      <div class="container">
+       <h1 class="title">Making things looks great
+       <span>for companies who make great stuff</span>
+       </h1>
+       <a href="#" class="button button-accent">See Our Work</a>
+       </div>
+   </section>
    
+   <div class="container">
+      
+       <section class="home-about">
+          
+           <div class="home-about-textbox">
+               <h1>Who we are</h1>
+               <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing el asperiores accusantium?</p> 
+               <p><strong>Lorem ipsum dolor sit</strong> amet.Lorem ipsum dolor sit amet, consectetur adipisicing el asperiores accusantium?</p>
+           </div>
+           
+       </section>
+       
+   </div>
+   
+   
+   <section class="portfolio">
+       <h1>Some of our work</h1>
+       
+       <!-- portfolio item 01 -->
+        <figure class="port-item">
+         <img src="img/portfolio-01.jpg" alt="portfolio item">
+        <figcaption class="port-desc">
+             <p>Project title</p>
+             <a href="#" class="button button-accent button-small">project detalist</a>
+         </figcaption>
+         </figure>
+         
+          <!-- portfolio item 02 -->
+        <figure class="port-item">
+         <img src="img/portfolio-02.jpg" alt="portfolio item">
+        <figcaption class="port-desc">
+             <p>Project title</p>
+             <a href="#" class="button button-accent button-small">project detalist</a>
+         </figcaption>
+         </figure>
+         
+          <!-- portfolio item 03 -->
+        <figure class="port-item">
+         <img src="img/portfolio-03.jpg" alt="portfolio item">
+        <figcaption class="port-desc">
+             <p>Project title</p>
+             <a href="#" class="button button-accent button-small">project detalist</a>
+         </figcaption>
+         </figure>
+         
+          <!-- portfolio item 04 -->
+        <figure class="port-item">
+         <img src="img/portfolio-04.jpg" alt="portfolio item">
+        <figcaption class="port-desc">
+             <p>Project title</p>
+             <a href="#" class="button button-accent button-small">project detalist</a>
+         </figcaption>
+         </figure>
+         
+          <!-- portfolio item 05 -->
+        <figure class="port-item">
+         <img src="img/portfolio-05.jpg" alt="portfolio item">
+        <figcaption class="port-desc">
+             <p>Project title</p>
+             <a href="#" class="button button-accent button-small">project detalist</a>
+         </figcaption>
+         </figure>
+         
+          <!-- portfolio item 06 -->
+        <figure class="port-item">
+         <img src="img/portfolio-06.jpg" alt="portfolio item">
+        <figcaption class="port-desc">
+             <p>Project title</p>
+             <a href="#" class="button button-accent button-small">project detalist</a>
+         </figcaption>
+         </figure>
+         
+   </section>
+   
+   <section class="cta"> 
+       <div class="container">
+       <h1 class="title title-cta">Jakis fajny tekst?
+       <span>for companiefor companies who makes who make great stuff</span>
+       </h1>
+       <a href="#" class="button button-dark">Hire us</a>
+       </div> 
+   </section>
+   
+   <footer>
+     <div class="container">
+        <div class="col-3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In recusandae iste, ea minima necessitatibus architecto? Quo eligendi impedit, totam eius dolorem, corporis nulla similique excepturi. Aperiam deserunt libero a, nesciunt!
+          </p>
+          </div>
 
+          <div class="col-1">
+               <ul class="unstyled-list">
+                   <li><strong>Shoreditch</strong></li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+               </ul>
+           </div>
+
+             <div class="col-1">
+                <ul class="unstyled-list">
+                   <li><strong>Shoreditch</strong></li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+               </ul>
+           </div>
+
+           <div class="col-1">
+                <ul class="unstyled-list">
+                   <li><strong>Shoreditch</strong></li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+                   <li>lorem ipsum</li>
+               </ul>
+           </div>
+       </div>
+   </footer>
     
 </body>
 </html>

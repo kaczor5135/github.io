@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+
+<body>
+    <div class="header">
+	 
+	 <div class="navbar" id='nav'>
+
+       <ul>
+       	  <li>Home</li>
+       	  <li>Blog</li>
+       	  <li>Video</li>
+       	  <li>Contact</li>
+       	  <li>About</li>
+       </ul>
+
+	 </div>
+
+</div>
+
+<div class="box"></div>
+
+
+<!-- add some javascript code -->
+
+   <script type="text/javascript">
+   	
+   	 var  nav = document.getElementById('nav');
+      
+      window.onscroll = function(){
+
+      	if (window.pageYOffset >100) {
+
+      		nav.style.background = "#3b4146";
+      		nav.style.boxShadow = "0px 4px 2px blue";
+      	}
+      	else{
+      		nav.style.background = "transparent";
+      		nav.style.boxShadow = "none";
+      	}
+      }
+
+
+
+   </script>
+</body>
+</html>
